@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/perthird" >
+
+    <Gallery
+        android:id="@+id/gallery1"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:minHeight="100dp"
+        android:minWidth="100dp"
+        android:paddingLeft="-80dp"
+        android:paddingTop="10dp"
+        android:spacing="-20dp" />
+
+    <Button
+        android:id="@+id/savep"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/brwp"
+        android:layout_alignBottom="@+id/brwp"
+        android:layout_alignRight="@+id/image1"
+        android:background="@drawable/save_btn"
+        android:fadingEdge="horizontal"
+        android:gravity="right"
+        android:paddingTop="-40dp" />
+
+    <Button
+        android:id="@+id/brwp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/image1"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/brw_btn"
+        android:gravity="left"
+        android:paddingTop="-40dp" />
+
+<ImageView
+        android:id="@+id/image1"
+        android:layout_width="310dip"
+        android:layout_height="310dip"
+        android:layout_above="@+id/savep"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="11dp"
+        android:adjustViewBounds="true"
+        android:background="#cfcfcf"
+        android:scaleType="fitXY" 
+        
+        />
+
+<ImageView
+    android:id="@+id/image2"
+    android:layout_width="310dip"
+    android:layout_height="310dip"
+    android:layout_alignLeft="@+id/image1"
+    android:layout_alignTop="@+id/image1"
+    android:background="@null"
+    android:cropToPadding="true"
+    android:minHeight="50dip"
+    android:adjustViewBounds="true"
+    android:minWidth="50dip"
+    android:scaleType="matrix"
+    android:src="@drawable/pic4" />
+
+	
+</RelativeLayout>

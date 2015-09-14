@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bbp" >
+
+
+    <TextView
+        android:id="@+id/devin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:fontFamily="sans-serif-condensed"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="5dip"
+        android:text="@string/dev"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/tumblr"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/devin"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/tumblr_btn" />
+
+    <Button
+        android:id="@+id/gplus"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tumblr"
+        android:layout_alignBottom="@+id/tumblr"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="22dp"
+        
+        android:background="@drawable/googleplus_btn" />
+
+    <Button
+        android:id="@+id/twit"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tumblr"
+        android:layout_alignBottom="@+id/tumblr"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="22dp"
+        android:background="@drawable/twitter_btn" 
+        />
+
+</RelativeLayout>

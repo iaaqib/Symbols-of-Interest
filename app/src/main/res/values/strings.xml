@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Symbols Of Interest</string>
+    <string name="Welcome">Welcome Irrelevants</string>
+    <string name="action_settings">Settings</string>
+	<string name ="poiWikia">Person of Interest is a crime thriller series, created by Jonathan Nolan and broadcasting on CBS.\nIt all starts when reclusive billionaire Harold Finch (Michael Emerson) recruits former CIA special forces agent John Reese (Jim Caviezel) to investigate social security numbers of people who are about to be involved in violent crimes, either victims or perpetrators.\nRead About: <a href="http://personofinterest.wikia.com/wiki/The_Machine">\nThe Machine &amp; It\'s Symbols</a> </string>
+    
+    <string name="dev">Hi!\nI am a student,and Person Of Interest is my favortie show. This is my first app. I hope you\'re going to like it.\nThis app is not officially associated with Person Of Interest.\nFollow me and give me feedbacks about the app on the following accounts.</string>
+	
+</resources>
